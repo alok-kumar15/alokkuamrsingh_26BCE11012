@@ -2,9 +2,13 @@
 
 A simple Retrieval-Augmented Generation (RAG) pipeline built with Python. This project demonstrates how to load a PDF document, split it into chunks, convert the chunks into embeddings, store them in a vector database, retrieve relevant information based on a user query, and use an LLM to generate a grounded answer.
 
+
+
 # Project Overview
 
 This project implements the following RAG workflow:
+
+```text
 
 PDF Document
      ↓
@@ -28,6 +32,8 @@ Relevant Chunks
      ↓
 Grounded Answer
 
+```
+
 
 # Features
 
@@ -41,7 +47,10 @@ Grounded Answer
 8. Prevent the LLM from answering from unrelated information when the answer isn't found in the document
 
 
+
 # Technologies Used
+
+```text
 
  Technology                         Purpose                  
  
@@ -52,8 +61,12 @@ Grounded Answer
  GEMINI API                         Generate final answers   
  python-dotenv                      Load API key from `.env` 
 
+```
+
 
 # Project Structure
+
+```text
 
 rag-project/
 │
@@ -62,6 +75,8 @@ rag-project/
 ├── requirements.txt
 ├── .env
 └── README.md
+
+```
 
 
 # Learning Objectives
