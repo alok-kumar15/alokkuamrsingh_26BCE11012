@@ -3,7 +3,6 @@
 A simple Retrieval-Augmented Generation (RAG) pipeline built with Python. This project demonstrates how to load a PDF document, split it into chunks, convert the chunks into embeddings, store them in a vector database, retrieve relevant information based on a user query, and use an LLM to generate a grounded answer.
 
 
-</> Markdown
 
 ## Project Overview
 
@@ -36,6 +35,7 @@ Grounded Answer
 ```
 
 
+
 ## Features
 
 1. Load text from a PDF document
@@ -48,7 +48,6 @@ Grounded Answer
 8. Prevent the LLM from answering from unrelated information when the answer isn't found in the document
 
 
-</> Markdown
 
 ## Technologies Used
 
@@ -65,7 +64,7 @@ Grounded Answer
 
 ```
 
-</> Markdown
+
 
 ## Project Structure
 
@@ -80,6 +79,7 @@ rag-project/
 └── README.md
 
 ```
+
 
 
 ## Learning Objectives
