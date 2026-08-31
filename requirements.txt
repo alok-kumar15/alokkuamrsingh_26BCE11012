@@ -1,5 +1,5 @@
 pypdf
 sentence-transformers
 faiss-cpu
-openai
+genai
 python-dotenv
